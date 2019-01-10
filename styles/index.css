@@ -1,0 +1,163 @@
+body {
+  background: #202124;
+  font-family: "Roboto",sans-serif;
+}
+
+.header {
+  padding: 20px 0;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.header__title {
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.tabs-header__button {
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 20px 0;
+  color: #E9E9EA;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+  border-bottom: 4px solid transparent;
+}
+
+.tabs-header__button:focus {
+  outline: none;
+}
+
+.tabs-header__button.active {
+  border-bottom-color: #2196f3;
+  background: #2195f32c;
+  color: #ffffff;
+}
+
+.form {
+  margin-top: 50px;
+}
+
+.form__title {
+  color: #E9E9EA;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.form__title span {
+  color: #f50057;
+  font-weight: normal;
+}
+
+.form .input-wrapper {
+  margin-top: 50px;
+}
+
+.form__submit-btn {
+  width: 200px !important;
+  padding: 10px 0 !important;
+  margin: 20px auto 0 auto !important;
+  display: block !important;
+}
+
+.table {
+  margin-top: 40px;
+  border-radius: 4px;
+  background: #424242;
+}
+
+.table .table-header {
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.479);
+}
+
+.table .table-header__list {
+  margin: 0;
+  padding: 0;
+}
+
+.table .table-header__list li {
+  font-size: 12px;
+  display: inline-block;
+  width: 23%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.table .table-header__list li:last-child {
+  width: 8%;
+}
+
+.table .table-header__button {
+  cursor: pointer;
+  padding: 4px 10px;
+}
+
+.table .table-header__button:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.table .table-header__button--text {
+  margin: 0 0 0 5px;
+}
+
+.table .table-body__list {
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.479);
+  padding: 0px 20px;
+}
+
+.table .table-body__list:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.table .table-body__list li {
+  font-size: 14px;
+  display: inline-block;
+  width: 23%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.table .table-body__list li:last-child {
+  width: 8%;
+}
+
+.table .table-body__empty {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.479);
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 300;
+}
+
+.table .table-body__empty span {
+  margin: 0 0 0 10px;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+}
+/*# sourceMappingURL=index.css.map */

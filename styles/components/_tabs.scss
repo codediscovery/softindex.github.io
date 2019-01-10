@@ -1,0 +1,22 @@
+.tabs-header{
+    &__button{
+        display: block;
+        width: 100%;
+        background: transparent;
+        border: none;
+        padding: 20px 0;
+        color: #E9E9EA;
+        cursor: pointer;
+        font-size: 20px;
+        transition: .1s ease-in-out;
+        border-bottom: 4px solid transparent;
+        &:focus{
+            outline: none;
+        }
+        &.active{
+            border-bottom-color: #2196f3;
+            background: #2195f32c;
+            color: #ffffff;
+        }
+    }
+}

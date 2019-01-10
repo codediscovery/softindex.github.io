@@ -1,0 +1,13 @@
+.header {
+  padding: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  &__title{
+      color: #ffffff;
+      text-align: center;
+      display: block;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: bold;
+  }
+}

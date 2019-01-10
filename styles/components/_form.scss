@@ -1,0 +1,22 @@
+.form{
+    margin-top: 50px;
+    &__title{
+        color: #E9E9EA;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 300;
+        span{
+            color: rgb(245, 0, 87);
+            font-weight: normal;
+        }
+    }
+    .input-wrapper{
+        margin-top: 50px;
+    }
+    &__submit-btn{
+        width: 200px!important;
+        padding: 10px 0!important;
+        margin: 20px auto 0 auto!important;
+        display: block!important;
+    }
+}
